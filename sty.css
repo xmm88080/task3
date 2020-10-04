@@ -1,0 +1,69 @@
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+body{
+    margin: 20px;
+}
+
+.back {
+    margin: 0 auto;
+    width: 90%;
+    padding: 20px ;
+    background-color: #eeeeee;
+    border: solid 1px pink;
+}
+
+.back .left {
+    float: left;
+    width: 200px;
+    height: 80px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #a7a7a7;
+    margin-right: 20px;
+}
+
+.left img {
+    float: left;
+    width: 80px;
+    height: 80px;
+}
+
+.back p {
+    float: left;
+    margin: 0 20px;
+    font-size: 20px;
+}
+.back .right{
+    float: right;
+    width: 80px;
+    padding: 20px 20px 0 20px;
+    background-color: #ffffff;
+    border: 1px solid #a7a7a7;
+    margin-right: 20px;
+}
+.back img{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+.back .center {
+   margin:0 166px 0 266px;
+  
+    height: 300px;
+   
+   
+    background-color: #ffffff;
+    border: 1px solid #a7a7a7;
+    padding: 20px;
+}
